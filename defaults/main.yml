@@ -1,0 +1,23 @@
+---
+
+# ellucian_environment_name:
+#
+# ellucian_tomcat_db_hostname:
+# ellucian_tomcat_db_port:
+# ellucian_tomcat_db_sid:
+
+# ellucian_tomcat_banproxy_password:
+# ellucian_tomcat_banssuser_password:
+#
+# ellucian_tomcat_extra_libs_path:
+#
+# ellucian_wgetrc_http_password:
+#
+# ellucian_nfs_server:
+# ellucian_nfs_remote_mount:
+#
+# ellucian_jenkins_authorize_key:
+#
+# ellucian_cacerts_cert_name:
+# ellucian_cacerts_cert_alias:
+# ellucian_cacerts_local_cert_location:

@@ -1,0 +1,8 @@
+dependencies:
+  - ChristopherDavenport.universal-java
+  - ChristopherDavenport.ellucian-tomcat
+  - ChristopherDavenport.ellucian-wgetrc
+  - ChristopherDavenport.cacerts-import
+  - ChristopherDavenport.jenkins-slave
+  - geerlingguy.nfs
+  - cmprescott.autofs

@@ -1,0 +1,20 @@
+---
+
+jenkins_slave_username: tomcat
+jenkins_slave_base: "/u01/deployment_jenkins_{{ ellucian_environment_name }}"
+jenkins_slave_authorize_key: "{{ ellucian_jenkins_authorize_key }}"
+
+ellucian_wgetrc_users:
+  - name: "{{ jenkins_slave_username }}"
+
+cacerts_cert_name: "{{ ellucian_cacerts_cert_name }}"
+cacerts_cert_alias: "{{ ellucian_cacerts_cert_alias }}"
+cacerts_local_cert_location: "{{ ellucian_cacerts_local_cert_location }}"
+
+autofs_indirect_maps:
+  - name: auto.staging
+    path: "{{ jenkins_slave_mount }}"
+    mounts:
+      - name: staging
+        fstype: "nfs,ro,sync,nfsvers=3"
+        url: "{{ ellucian_nfs_server }}:{{ ellucian_nfs_remote_mount }}"
