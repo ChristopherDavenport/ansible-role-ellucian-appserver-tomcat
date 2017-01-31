@@ -1,6 +1,0 @@
----
-
-- name: Install unzip
-  package:
-    name: unzip
-    state: installed

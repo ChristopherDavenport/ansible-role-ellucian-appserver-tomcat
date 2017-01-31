@@ -18,6 +18,5 @@
 #
 # ellucian_jenkins_authorize_key:
 #
-# ellucian_cacerts_cert_name:
-# ellucian_cacerts_cert_alias:
-# ellucian_cacerts_local_cert_location:
+# ellucian_cacerts:
+#

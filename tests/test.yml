@@ -1,0 +1,38 @@
+---
+- hosts: localhost
+  vars:
+
+    ellucian_tomcat_db_hostname: testdb.school.edu
+    ellucian_tomcat_db_port: "2322"
+    ellucian_tomcat_db_sid: TEST
+
+    ellucian_tomcat_banproxy_password: fakebanproxypassword
+    ellucian_tomcat_banssuser_password: fakebanssuser_password
+
+    ellucian_tomcat_rim_hostname: fakehostname
+
+    ellucian_tomcat_extra_libs_path: []
+
+    ellucian_wgetrc_http_password: fakeHttpPassword
+
+    ellucian_nfs_server: fakenfsserver.school.edu
+    ellucian_nfs_remote_mount: /u02/ellucian/staging
+
+    # No Key Gets Authorized In Test
+    # ellucian_jenkins_authorize_key:
+    #
+    ellucian_cacerts:
+      - name: google.pem
+        alias: mygooglecertalias
+        location: remote
+        server: google.com
+        port: "443"
+
+
+  pre_tasks:
+    - name: Update apt cache.
+      apt: update_cache=yes
+      changed_when: False
+      when: ansible_os_family == 'Debian'
+  roles:
+    - role_under_test

@@ -7,9 +7,7 @@ jenkins_slave_authorize_key: "{{ ellucian_jenkins_authorize_key }}"
 ellucian_wgetrc_users:
   - name: "{{ jenkins_slave_username }}"
 
-cacerts_cert_name: "{{ ellucian_cacerts_cert_name }}"
-cacerts_cert_alias: "{{ ellucian_cacerts_cert_alias }}"
-cacerts_local_cert_location: "{{ ellucian_cacerts_local_cert_location }}"
+cacerts: "{{ ellucian_cacerts }}"
 
 autofs_indirect_maps:
   - name: auto.staging
