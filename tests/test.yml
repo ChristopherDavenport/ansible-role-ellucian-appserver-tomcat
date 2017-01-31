@@ -30,7 +30,6 @@
         server: google.com
         port: "443"
 
-
   pre_tasks:
     - name: Update apt cache.
       apt: update_cache=yes
