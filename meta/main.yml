@@ -7,31 +7,31 @@ dependencies:
   - geerlingguy.nfs
   - cmprescott.autofs
 
-  galaxy_info:
-    author: Christopher Davenport
-    description: Ellucian Tomcat Appserver Installation
-    company: Eckerd College
-    license: MIT
+galaxy_info:
+  author: Christopher Davenport
+  description: Ellucian Tomcat Appserver Installation
+  company: Eckerd College
+  license: MIT
 
-    min_ansible_version: 2.1
+  min_ansible_version: 2.1
 
-    galaxy_tags:
-      - ellucian
-      - tomcat
-      - systemd
-      - deployment
-      - systems
+  galaxy_tags:
+    - ellucian
+    - tomcat
+    - systemd
+    - deployment
+    - systems
 
-    platforms:
-      - name: Fedora
-        versions:
-          - 23
-      - name: Ubuntu
-        versions:
-          - xenial
-      - name: Debian
-        versions:
-          - jessie
-      - name: EL
-        versions:
-          - 7
+  platforms:
+    - name: Fedora
+      versions:
+        - 23
+    - name: Ubuntu
+      versions:
+        - xenial
+    - name: Debian
+      versions:
+        - jessie
+    - name: EL
+      versions:
+        - 7
