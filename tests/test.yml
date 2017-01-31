@@ -2,6 +2,8 @@
 - hosts: localhost
   vars:
 
+    ellucian_environment_name: TEST
+
     ellucian_tomcat_db_hostname: testdb.school.edu
     ellucian_tomcat_db_port: "2322"
     ellucian_tomcat_db_sid: TEST
