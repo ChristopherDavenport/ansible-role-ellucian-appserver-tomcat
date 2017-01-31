@@ -57,6 +57,7 @@ install:
   - 'docker exec --tty "$(cat ${container_id})" env TERM=xterm ansible-galaxy install ChristopherDavenport.ellucian-tomcat'
   - 'docker exec --tty "$(cat ${container_id})" env TERM=xterm ansible-galaxy install ChristopherDavenport.ellucian-wgetrc'
   - 'docker exec --tty "$(cat ${container_id})" env TERM=xterm ansible-galaxy install ChristopherDavenport.jenkins-slave'
+  - 'docker exec --tty "$(cat ${container_id})" env TERM=xterm ansible-galaxy install ChristopherDavenport.cacerts-import'
   - 'docker exec --tty "$(cat ${container_id})" env TERM=xterm ansible-galaxy install geerlingguy.nfs'
   - 'docker exec --tty "$(cat ${container_id})" env TERM=xterm ansible-galaxy install cmprescott.autofs'
 
