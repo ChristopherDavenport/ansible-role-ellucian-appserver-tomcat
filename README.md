@@ -61,6 +61,20 @@ the names of the key, the alias, and how to get it; either local or remote.
 #
 ```
 
+## Dependencies
+
+Direct
+ - [ChristopherDavenport.ellucian-tomcat](https://galaxy.ansible.com/ChristopherDavenport/ellucian-tomcat/)
+ - [ChristopherDavenport.ellucian-wgetrc](https://galaxy.ansible.com/ChristopherDavenport/ellucian-wgetrc/)
+ - [ChristopherDavenport.cacerts-import](https://galaxy.ansible.com/ChristopherDavenport/cacerts-import/)
+ - [ChristopherDavenport.jenkins-slave](https://galaxy.ansible.com/ChristopherDavenport/jenkins-slave/)
+ - [geerlingguy.nfs](https://galaxy.ansible.com/geerlingguy/nfs/)
+ - [cmprescott.autofs](https://galaxy.ansible.com/cmprescott/autofs/)
+
+Transitive
+ - [ChristopherDavenport.universal-java](https://galaxy.ansible.com/ChristopherDavenport/universal-java/)
+ - [ChristopherDavenport.universal-tomcat](https://galaxy.ansible.com/ChristopherDavenport/universal-tomcat/)
+
 
 ## Example Playbook
 
