@@ -1,6 +1,6 @@
 # Ellucian Appserver Tomcat
 
-[![Build Status](https://travis-ci.org/ChristopherDavenport/ansible-role-ellucian-appserver-tomcat.svg?branch=master)](https://travis-ci.org/ChristopherDavenport/ansible-role-ellucian-appserver-tomcat)
+[![Build Status](https://travis-ci.org/ChristopherDavenport/ansible-role-ellucian-appserver-tomcat.svg?branch=master)](https://travis-ci.org/ChristopherDavenport/ansible-role-ellucian-appserver-tomcat) [![Gitter](https://img.shields.io/gitter/room/ansible-role-ellucian-appserver-tomcat/Lobby.svg)](https://gitter.im/ansible-role-ellucian-appserver-tomcat/Lobby)
 
 This is a single role to provision correctly tomcat appservers correctly for
 Ellucian Banner 9 Applications.
